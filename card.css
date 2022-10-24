@@ -1,0 +1,35 @@
+#img img{
+    width: 100%;
+    margin-bottom: -5px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    position: relative;
+    top: 100px;
+    left: 35vw;
+    right: 35vw;
+}
+.items, .links, #img{
+    border: 1px solid rgb(32, 32, 238);
+}
+.items{
+    padding: 10px;
+}
+.links{
+    padding: 20px 0px 20px 10px;
+    display: flex;
+    gap: 40px;
+}
+article div:first-child{
+    font-weight: 550;
+    font-size: 1.3em;
+    padding-bottom: 5px;
+}
+a:hover{
+    color: red;
+}
+a{
+    color: blue;
+}
